@@ -105,6 +105,7 @@ CREATE TABLE `materia` (
   `nombre_ma` varchar(45) NOT NULL,
   `creditos_ma` char(8) NOT NULL,
   `docente_id` tinyint(3) NOT NULL,
+  `carrera_id` tinyint(3) NOT NULL,
   PRIMARY KEY (`id_materia`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
