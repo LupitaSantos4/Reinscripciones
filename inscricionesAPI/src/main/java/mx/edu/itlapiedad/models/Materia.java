@@ -5,6 +5,7 @@ public class Materia {
 	String nombre_ma;
 	int creditos_ma;
 	int docente_id;
+	int carrera_id;
 	
 	public Materia() {
 		super();
