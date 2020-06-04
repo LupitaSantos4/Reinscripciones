@@ -11,12 +11,13 @@ public class Materia {
 		super();
 	}
 
-	public Materia(int id_materia, String nombre_ma, int creditos_ma, int docente_id) {
+	public Materia(int id_materia, String nombre_ma, int creditos_ma, int docente_id, int carrera_id) {
 		super();
 		this.id_materia = id_materia;
 		this.nombre_ma = nombre_ma;
 		this.creditos_ma = creditos_ma;
 		this.docente_id = docente_id;
+		this.carrera_id = carrera_id;
 	}
 
 
@@ -50,6 +51,14 @@ public class Materia {
 
 	public void setDocente_id(int docente_id) {
 		this.docente_id = docente_id;
+	}
+
+	public int getCarrera_id() {
+		return carrera_id;
+	}
+
+	public void setCarrera_id(int carrera_id) {
+		this.carrera_id = carrera_id;
 	}
 	
 	
